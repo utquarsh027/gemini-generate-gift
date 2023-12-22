@@ -8,7 +8,7 @@ genai.configure(api_key=API_KEY)
 st.set_page_config(page_title="Generate Gift", 
                    page_icon="🎁",
                    layout="centered",
-                   initial_sidebar_state='collapsed')
+                   initial_sidebar_state='auto')
 
 st.header("Generate Gift")
 
