@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import google.ai.generativelanguage as glm
 
-API_KEY="AIzaSyAo9yfpvJACfzgxPyX3cj3FkSoV4wUy3nY"
+API_KEY=st.secrets['key']
 genai.configure(api_key=API_KEY)
 
 st.set_page_config(page_title="Generate Gift", 
